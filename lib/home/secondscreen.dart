@@ -108,9 +108,6 @@ class SecondScreen extends StatelessWidget {
                             fontSize: 24, fontWeight: FontWeight.w600),
                       ),
                     ),
-                    // const SizedBox(
-                    //   height: 200,
-                    // ),
                     const SizedBox(
                       height: 180,
                     ),
