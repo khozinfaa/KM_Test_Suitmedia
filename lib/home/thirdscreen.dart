@@ -114,41 +114,6 @@ class ThirdScreen extends StatelessWidget {
                 ),
               ),
             ),
-            // Expanded(
-            //   child: FutureBuilder<List<User>>(
-            //     future: UserService.fetchUsers(),
-            //     builder: (context, snapshot) {
-            //       final users = snapshot.data;
-            //       if (snapshot.connectionState == ConnectionState.waiting) {
-            //         return const Center(
-            //           child: CircularProgressIndicator(),
-            //         );
-            //       }
-
-            //       if (snapshot.hasError) {
-            //         return const Center(
-            //           child: Text('Error'),
-            //         );
-            //       }
-
-            //       return ListView.builder(
-            //           itemCount: users!.length,
-            //           itemBuilder: (context, index) {
-            //             final user = users[index];
-            //             return Card(
-            //               child: ListTile(
-            //                 leading: CircleAvatar(
-            //                   backgroundImage: NetworkImage(user.avatar),
-            //                 ),
-            //                 title: Text('${user.firstName} ${user.lastName}'),
-            //                 subtitle: Text(user.email),
-            //               ),
-            //             );
-            //           },
-            //         );
-            //     },
-            //   ),
-            // ),
           ],
         ),
       ),
